@@ -1,0 +1,10 @@
+FROM ghcr.io/uniagent-webis-de/uniagent-pyterrier-baseline:dev-0.0.1
+
+WORKDIR /app
+
+RUN pip install --no-cache-dir torch --index-url https://download.pytorch.org/whl/cpu \
+    && pip install --no-cache-dir "sentence-transformers>=3,<6" \
+    && python3 -c "from huggingface_hub import snapshot_download; snapshot_download('BAAI/bge-reranker-v2-m3', local_dir='/app/models/bge-reranker-v2-m3', allow_patterns=['*.json','*.safetensors','sentencepiece*','tokenizer*','*.model'])"
+
+ADD german-stopwords.txt german-stopwords.NOTICE retrieve.py rerank.py priors.py /app/
+RUN chmod +x /app/retrieve.py
