@@ -1,0 +1,49 @@
+{\footnotesize\setlength{\LTleft}{0pt}\setlength{\LTright}{0pt}
+\begin{longtable}{@{\extracolsep{\fill}}lrrrrrrrrr@{}}
+\caption{Accuracy of the submitted agents on Task~2, i.e., the fraction of cases decided as the administrative staff decided them, per domain and for the easy and the hard variant of the cases, each with an `All' column over its three domains (Easy: Travel 20, Expenses 11, Procurement 9; Hard: Travel 20, Expenses 11, Procurement 9). Column `Acc.' is the accuracy over all 80 cases, `--' marks a missing run, and the best value per column is in bold.}
+\label{tab:task-02} \\
+\toprule
+& \multicolumn{4}{c}{Easy} & \multicolumn{4}{c}{Hard} & \multicolumn{1}{c}{All} \\
+\cmidrule(lr){2-5}\cmidrule(lr){6-9}\cmidrule(lr){10-10}
+Agent and model & Travel & Expenses & Procurement & All & Travel & Expenses & Procurement & All & Acc. \\
+\midrule
+\endfirsthead
+\toprule
+& \multicolumn{4}{c}{Easy} & \multicolumn{4}{c}{Hard} & \multicolumn{1}{c}{All} \\
+\cmidrule(lr){2-5}\cmidrule(lr){6-9}\cmidrule(lr){10-10}
+Agent and model & Travel & Expenses & Procurement & All & Travel & Expenses & Procurement & All & Acc. \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+\multicolumn{10}{l}{ambitious-camera} \\*
+\quad gpt-oss-120b & 0.850 & 0.818 & 0.778 & 0.825 & 0.700 & 0.727 & 0.556 & \textbf{0.675} & \textbf{0.750} \\
+\quad gpt-oss-20b & 0.850 & 0.636 & 0.778 & 0.775 & 0.450 & 0.727 & 0.556 & 0.550 & 0.662 \\
+\quad Qwen2.5-7B-Instruct & 0.700 & 0.545 & 0.667 & 0.650 & 0.450 & \textbf{0.818} & 0.556 & 0.575 & 0.613 \\
+\midrule
+\multicolumn{10}{l}{bordeaux-spore} \\*
+\quad gpt-oss-120b & \textbf{0.900} & 0.818 & 0.667 & 0.825 & \textbf{0.750} & 0.636 & 0.556 & 0.675 & \textbf{0.750} \\
+\quad gpt-oss-20b & 0.800 & 0.636 & 0.778 & 0.750 & 0.550 & 0.727 & \textbf{0.667} & 0.625 & 0.688 \\
+\quad Qwen2.5-7B-Instruct & 0.650 & 0.545 & 0.667 & 0.625 & 0.450 & 0.545 & 0.556 & 0.500 & 0.562 \\
+\midrule
+\multicolumn{10}{l}{icy-transfer} \\*
+\quad gpt-oss-120b & 0.800 & 0.818 & 0.667 & 0.775 & 0.700 & 0.636 & 0.556 & 0.650 & 0.713 \\
+\quad gpt-oss-20b & \textbf{0.900} & 0.727 & 0.778 & 0.825 & 0.500 & \textbf{0.818} & 0.556 & 0.600 & 0.713 \\
+\quad Qwen2.5-7B-Instruct & 0.700 & 0.545 & 0.667 & 0.650 & 0.500 & 0.545 & 0.556 & 0.525 & 0.588 \\
+\midrule
+\multicolumn{10}{l}{feasible-clubhouse} \\*
+\quad gpt-oss-120b & 0.800 & 0.818 & 0.778 & 0.800 & 0.550 & 0.727 & 0.556 & 0.600 & 0.700 \\
+\quad gpt-oss-20b & \textbf{0.900} & 0.727 & 0.667 & 0.800 & 0.500 & 0.636 & 0.556 & 0.550 & 0.675 \\
+\quad Qwen2.5-7B-Instruct & 0.650 & 0.636 & 0.667 & 0.650 & 0.500 & 0.727 & 0.556 & 0.575 & 0.613 \\
+\midrule
+\multicolumn{10}{l}{unsorted-option} \\*
+\quad gpt-oss-120b & 0.700 & 0.818 & 0.778 & 0.750 & 0.500 & 0.727 & 0.556 & 0.575 & 0.662 \\
+\quad gpt-oss-20b & 0.800 & \textbf{0.909} & \textbf{0.889} & \textbf{0.850} & 0.450 & 0.727 & 0.556 & 0.550 & 0.700 \\
+\quad Qwen2.5-7B-Instruct & 0.650 & 0.545 & 0.667 & 0.625 & 0.450 & 0.545 & 0.556 & 0.500 & 0.562 \\
+\midrule
+\multicolumn{10}{l}{bold-frogman} \\*
+\quad gpt-oss-120b & 0.550 & 0.727 & 0.778 & 0.650 & 0.450 & 0.727 & 0.556 & 0.550 & 0.600 \\
+\quad gpt-oss-20b & 0.500 & 0.727 & 0.778 & 0.625 & 0.500 & 0.636 & 0.556 & 0.550 & 0.588 \\
+\quad Qwen2.5-7B-Instruct & 0.650 & 0.636 & 0.556 & 0.625 & 0.450 & 0.545 & 0.556 & 0.500 & 0.562 \\
+\end{longtable}
+}

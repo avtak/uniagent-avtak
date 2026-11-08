@@ -1,0 +1,1 @@
+Synthetic topics: 80 queries from 112 sampled documents of retrieval-de-spot-check, model Qwen/Qwen3-235B-A22B-Instruct-2507, seed 7; qrels = source document plus exact copies. About 85k input tokens.

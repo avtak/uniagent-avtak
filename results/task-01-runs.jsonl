@@ -1,0 +1,17 @@
+{"team": "avtak", "software": "covering-exponential", "dataset": "retrieval-hessian-law-de-20261012_0-test", "run_id": "2026-10-18-08-50-02", "model": "-"}
+{"team": "avtak", "software": "burgundy-chino", "dataset": "retrieval-hessian-law-de-20261012_0-test", "run_id": "2026-10-17-05-54-28", "model": "-"}
+{"team": "avtak", "software": "simple-truss", "dataset": "retrieval-hessian-law-de-20261012_0-test", "run_id": "2026-10-17-06-46-36", "model": "-"}
+{"team": "avtak", "software": "parallel-grouse", "dataset": "retrieval-hessian-law-de-20261012_0-test", "run_id": "2026-10-17-05-55-24", "model": "-"}
+{"team": "avtak", "software": "covering-exponential", "dataset": "retrieval-kassel-intranet-de-20261019-test", "run_id": "2026-10-19-10-57-26-71114850", "model": "-"}
+{"team": "avtak", "software": "burgundy-chino", "dataset": "retrieval-kassel-intranet-de-20261019-test", "run_id": "2026-10-19-10-57-37-3c2e66f7", "model": "-"}
+{"team": "avtak", "software": "simple-truss", "dataset": "retrieval-kassel-intranet-de-20261019-test", "run_id": "2026-10-19-11-49-02-6fdff2ce", "model": "-"}
+{"team": "avtak", "software": "parallel-grouse", "dataset": "retrieval-kassel-intranet-de-20261019-test", "run_id": "2026-10-19-11-20-31-f8526a80", "model": "-"}
+{"team": "avtak", "software": "covering-exponential", "dataset": "retrieval-kassel-web-de-20261012-test", "run_id": "2026-10-17-05-53-40", "model": "-"}
+{"team": "avtak", "software": "burgundy-chino", "dataset": "retrieval-kassel-web-de-20261012-test", "run_id": "2026-10-18-09-25-06", "model": "-"}
+{"team": "avtak", "software": "simple-truss", "dataset": "retrieval-kassel-web-de-20261012-test", "run_id": "2026-10-18-10-17-21", "model": "-"}
+{"team": "avtak", "software": "simple-truss", "dataset": "retrieval-kassel-web-de-20261012-test", "run_id": "2026-10-18-10-56-05", "model": "-"}
+{"team": "avtak", "software": "parallel-grouse", "dataset": "retrieval-kassel-web-de-20261012-test", "run_id": "2026-10-18-07-38-49", "model": "-"}
+{"team": "avtak", "software": "covering-exponential", "dataset": "retrieval-kassel-web-en-20261012-test", "run_id": "2026-10-17-05-53-59", "model": "-"}
+{"team": "avtak", "software": "burgundy-chino", "dataset": "retrieval-kassel-web-en-20261012-test", "run_id": "2026-10-18-09-51-21", "model": "-"}
+{"team": "avtak", "software": "simple-truss", "dataset": "retrieval-kassel-web-en-20261012-test", "run_id": "2026-10-18-10-45-19", "model": "-"}
+{"team": "avtak", "software": "parallel-grouse", "dataset": "retrieval-kassel-web-en-20261012-test", "run_id": "2026-10-18-07-39-01", "model": "-"}

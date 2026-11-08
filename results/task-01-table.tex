@@ -1,0 +1,31 @@
+{\footnotesize\setlength{\LTleft}{0pt}\setlength{\LTright}{0pt}
+\begin{longtable}{@{\extracolsep{\fill}}lrrrrrrrr@{}}
+\caption{Effectiveness of the submitted approaches on Task~1. The left half reports nDCG@10 per test collection, averaged over the queries of a collection, the right half micro-averages over all queries. Each collection has 20~queries. `--' marks a missing run, and the best value per column is in bold.}
+\label{tab:task-01} \\
+\toprule
+& \multicolumn{4}{c}{nDCG@10 per test collection} & \multicolumn{4}{c}{Over all queries} \\
+\cmidrule(lr){2-5}\cmidrule(lr){6-9}
+Approach and model & Intranet & Web (de) & Web (en) & Law & MAP & nDCG@10 & R@100 & RR \\
+\midrule
+\endfirsthead
+\toprule
+& \multicolumn{4}{c}{nDCG@10 per test collection} & \multicolumn{4}{c}{Over all queries} \\
+\cmidrule(lr){2-5}\cmidrule(lr){6-9}
+Approach and model & Intranet & Web (de) & Web (en) & Law & MAP & nDCG@10 & R@100 & RR \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+\multicolumn{9}{l}{parallel-grouse} \\*
+\quad none & 0.403 & \textbf{0.856} & 0.766 & \textbf{0.656} & \textbf{0.488} & \textbf{0.670} & \textbf{0.724} & \textbf{0.857} \\
+\midrule
+\multicolumn{9}{l}{simple-truss} \\*
+\quad none & \textbf{0.464} & 0.811 & \textbf{0.814} & 0.568 & 0.484 & 0.664 & 0.723 & 0.853 \\
+\midrule
+\multicolumn{9}{l}{burgundy-chino} \\*
+\quad none & 0.402 & \textbf{0.856} & 0.766 & 0.596 & 0.482 & 0.655 & 0.712 & 0.846 \\
+\midrule
+\multicolumn{9}{l}{covering-exponential} \\*
+\quad none & 0.402 & \textbf{0.856} & 0.766 & 0.596 & 0.482 & 0.655 & 0.712 & 0.846 \\
+\end{longtable}
+}
